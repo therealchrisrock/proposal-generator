@@ -13,6 +13,7 @@ export function cache(seconds: number) {
 
     await next();
 
+
     if (!c.res.ok) {
       return;
     }
